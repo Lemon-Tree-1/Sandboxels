@@ -16,14 +16,14 @@ for (var element in elements) {
 // set the unhide setting to Unlock as Discovered (2)
 settings.unhide = 2;
 
-// unhide magma, hydrogen, oxygen, nitrogen, and carbon dioxide
+// unhide magma, hydrogen, oxygen, nitrogen, and sun
 if (!settings.unlocked.alchemymod) {
     settings.unlocked = {
         "magma": true,
         "hydrogen": true,
         "oxygen": true,
         "nitrogen": true,
-        "carbon_dioxide": true,
+        "sun": true,
         "alchemymod": true,
     };
 }
